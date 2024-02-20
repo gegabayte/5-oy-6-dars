@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: gray;
+}
+
+.tudo-wrapper {
+  background-color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.header {
+  font-size: 20;
+  margin-bottom: 50px;
+}
+
+.header p {
+  background-color: rgb(241, 239, 217);
+  display: inline-block;
+  margin-left: 7px;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+form input {
+  width: 84%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+form button {
+  width: 16%;
+  border-radius: 10px;
+  border: 2px solid #39d4f5;
+  color: #39d4f5;
+  background-color: transparent;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+form button:hover {
+  color: #fff;
+  background-color: #39d4f5;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+table table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+table .fa-regular {
+  font-size: 30px;
+  color: #39d4f5;
+  cursor: pointer;
+}
+table .fa-trash-can {
+  color: grey;
+  border: 1px solid grey;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+table thead tr {
+  border-bottom: 2px solid black;
+}
+table thead th {
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table tbody tr {
+  border-bottom: 2px solid #DBE0E4;
+}
+table tbody td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table tbody td button {
+  color: grey;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+table tbody td button:hover {
+  color: #fff;
+  background-color: grey;
+}/*# sourceMappingURL=stayle.css.map */
